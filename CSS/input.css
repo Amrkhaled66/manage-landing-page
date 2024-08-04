@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 body {
-  background: url(images/bg-tablet-pattern.svg) no-repeat 125% -20%;
+  background: url(../images/bg-tablet-pattern.svg) no-repeat 125% -20%;
   background-size: 820px;
 }
 
 #features {
-  background: url(images/bg-tablet-pattern.svg) no-repeat;
+  background: url(../images/bg-tablet-pattern.svg) no-repeat;
   background-position: -50% -120%;
   background-size: 800px;
 }
 
 #act {
-  background-image: url(images/bg-simplify-section-desktop.svg) ;
+  background-image: url(../images/bg-simplify-section-desktop.svg) ;
   background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
@@ -26,6 +26,6 @@ body {
     background: none;
   }
   #act {
-    background-image: url(images/bg-simplify-section-mobile.svg);
+    background-image: url(../images/bg-simplify-section-mobile.svg);
   }
 }
